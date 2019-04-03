@@ -50,7 +50,7 @@ app.get('/apps',(req,res)=>{
     
 
   
-  res.json(newResult)
+   res.json(newResult)
 
     
 
@@ -59,7 +59,4 @@ app.get('/apps',(req,res)=>{
 })
 
 
-app.listen(8000,()=>{
-  console.log('Express is listening on port 8000')
-})
-
+module.exports=app
